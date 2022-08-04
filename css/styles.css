@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@300;400;500;700&family=Outfit:wght@400;700&display=swap');
+body{
+    font-family: 'Epilogue', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+#icon-col{
+    color: blue;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+h2{
+    text-align: center;
+}
+#nav-section-1{
+    background-color: black;
+    padding: 13px;
+    position: sticky;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#ul-1{
+    flex: 1;
+    max-width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#ul-1,.li-1{
+    display: inline;
+    margin: 0 8px;
+    padding: 0;
+}
+a{
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding-top: 2px;
+}
+.signup{
+    background-color: blue;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.signin{
+    color: black;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+i:hover{
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+#section-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.write{
+    width: 55%;
+}
+.explain{
+    width: 80%;
+}
+.ul-write{
+    margin-top: 30px;
+}
+.analysis{
+    display: flex;
+    margin-top: 30px;
+}
+.analyze{
+    padding: 0 20px 0 0;
+}
+.analyze-3{
+    padding: 0 40px 0 50px;
+}
+button{
+    padding: 8px 50px;
+    margin: 30px 7px 0 0;
+    font-size: 14px;
+}
+.apply{
+    background-image: linear-gradient(to right, blue, rgb(255, 217, 0));
+    border-radius: 20px;
+}
+.up{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.hero{
+    width: 23em;
+    height: 25em;
+}
+#section-3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+
+}
+.dealer{
+    width: 22em;
+    height: 15em;
+}
+.write-2{
+    width: 55%;
+}
+#section-4{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.write-3{
+    width: 55%;
+    margin: 0 60px;
+}
+#section-5{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.write-4{
+    width: 55%;
+    margin: 0 60px;
+}
+.ceo{
+    width: 20em;
+    height: 20em;
+    border-radius: 25%;
+    margin-right: 20px;
+}
+.contact-me{
+    text-align: left;
+}
+i{
+    color: black;
+    font-size: 30px;
+    margin-top: -10px;
+}
+.icon-me{
+    padding: 0 20px 0 0;
+}
+#register{
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin: 40px auto;
+    padding: 2px;
+    opacity: .8;
+    border-radius: 30px;
+    text-align: center;
+}
+.sign{
+    font-size: 30px;
+}
+.input-p{
+    margin-top: -20px;
+    font-size: 13px;
+}
+.input{
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+
+
