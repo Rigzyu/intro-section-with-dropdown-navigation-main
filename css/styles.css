@@ -5,6 +5,9 @@ body{
     margin: 0;
     width: auto;
 }
+.ham-img{
+    display: none;
+}
 #icon-col{
     color: blue;
 }
@@ -17,7 +20,8 @@ h2{
     text-align: center;
 }
 #nav-section-1{
-    background-color: black;
+    /* background-color: black; */
+    background-color: rgb(207, 176, 2);
     padding: 13px;
     position: sticky;
 }
@@ -41,7 +45,7 @@ nav{
 a{
     font-size: 16px;
     padding: 0 10px;
-    color: white;
+    color: rgb(61, 61, 61);
     text-decoration: none;
     padding-top: 2px;
 }
@@ -52,6 +56,7 @@ a:hover{
 }
 .signup{
     background-color: blue;
+    color: white;
     padding: 5px 15px;
     border-radius: 20px;
     margin: 0 10px;
@@ -105,7 +110,7 @@ button{
     
 }
 .apply{
-    background-image: linear-gradient(to right, blue, rgb(255, 217, 0));
+    background-image: linear-gradient(to right, blue, rgb(207, 176, 2));
     border-radius: 20px;
 }
 .up{
@@ -176,17 +181,16 @@ i{
 #register{
     background-color: black;
     color: white;
-    width: 95%;
-    z-index: 2;
-    height: 150px;
-    margin: 40px auto;
-    padding: 2px;
+    width: 93%;
+    height: 180px;
+    margin: 45px auto;
+    padding-top: 30px;
     opacity: .8;
     border-radius: 30px;
     text-align: center;
 }
 .sign{
-    font-size: 30px;
+    font-size: 35px;
 }
 .input-p{
     margin-top: -20px;
@@ -235,15 +239,28 @@ li{
 .contact-me-2{
     margin-top: 20px;
 }
-/* .footer-me{
-    background-color: blue;
-    padding-top: 15px;
-    border-radius: 10px;
-} */
 #footer-icon{
     color: white;
     font-size: 25px;
     padding: 2px;
+}
+
+/* media screen */
+
+@media (max-width:915px) {
+    body{
+        width: 100%;
+    }
+    #ul-1,.nav-register{
+        display: none;
+    }
+    .ham-img{
+        display: block;
+    }
+    .ham-img:hover{
+        cursor: pointer;
+
+    }
 }
 
 
