@@ -3,7 +3,6 @@ body{
     font-family: 'Epilogue', sans-serif;
     padding: 0;
     margin: 0;
-    width: auto;
 }
 .ham-img{
     display: none;
@@ -26,6 +25,7 @@ h2{
     position: sticky;
 }
 nav{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
@@ -78,7 +78,7 @@ h1{
 }
 #section-2{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     width: 100%;
     height: 100%;
@@ -124,8 +124,8 @@ button{
 #section-3{
     margin-top: 50px;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content:space-around;
     width: 100%;
     height: 100%;
 
@@ -139,6 +139,7 @@ button{
 }
 #section-4{
     display: flex;
+    flex-direction: row-reverse;
     margin-top: 50px;
     justify-content: center;
     align-items: flex-start;
@@ -151,8 +152,9 @@ button{
 }
 #section-5{
     display: flex;
+    flex-direction: row-reverse;
     margin-top: 50px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     width: 100%;
     height: 100%;
@@ -184,7 +186,7 @@ i{
     position: absolute;
     color: black;
     width: 93%;
-    left: 10px;
+    left: 15px;
     height: 180px;
     margin: 45px 20px;
     padding-top: 30px;
@@ -199,7 +201,12 @@ i{
     font-size: 15px;
 }
 .input{
-    padding: 5px 50px;
+    padding: 8px 50px;
+    border-radius: 15px;
+}
+.enter{
+    padding: 0px 10px;
+    background-color: blue;
     border-radius: 15px;
 }
 footer{
